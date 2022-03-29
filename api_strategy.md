@@ -12,7 +12,7 @@
 ## Approach
 
 ### Phase 1. Base APIs
-Develop the following APIs:
+Develop the following APIs for base object creation:
 - process: 3.5.2.5	Manage customer master data
   - Create / update account
   - Create / update contact
@@ -26,4 +26,7 @@ Develop the following APIs:
   - Create / update work orders
   - Create / update service appointments
 
-### Phase 2. Compound APIs
+### Phase 2. Triggers API
+APIs called when a record in salesforce is created or changed
+(same list as the top)
+
