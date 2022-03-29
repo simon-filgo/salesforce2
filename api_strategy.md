@@ -17,9 +17,13 @@ Develop the following APIs:
   - Create / update account
   - Create / update contact
   - Create / update asset
-- process: 3.5.3	
+- process: 3.5.3	Develop and manage sales proposals, bids, and quotes
   - Create / update opportunity
   - Create / update quote
 - process 3.5.4	Manage sales orders
   - Create / update order
+- process: 5.3.1.7 Plan for service delivery
+  - Create / update work orders
+  - Create / update service appointments
 
+### Phase 2. Compound APIs
