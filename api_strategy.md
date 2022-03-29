@@ -16,19 +16,35 @@
 ## Approach
 
 ### Phase 1. Base APIs
-Develop the following APIs for base object creation:
-- process: 3.5.2.5	Manage customer master data
-  - Create / update account
-  - Create / update contact
-  - Create / update asset
-- process: 3.5.3	Develop and manage sales proposals, bids, and quotes
-  - Create / update opportunity
-  - Create / update quote
-- process 3.5.4	Manage sales orders
-  - Create / update order
-- process: 5.3.1.7 Plan for service delivery
-  - Create / update work orders
-  - Create / update service appointments
+Develop the following 4 APIs for each of the base objects:
+
+Naming convention:
+- system_entity_action_version
+- sf2_account_get_v1
+
+Actions:
+- post: post schema.org object to salesforce object and return salesforce record id
+- get: retrieve salesforce object based on id or criteria and return schema.org object
+- get_callback: record callback url and push new é updated salesforce records to callback url in schema.org schema
+- get_bus: same as get_callback but sends to relevant BUS account instead of callback url
+
+Objects:
+- Accounts
+- Contacts
+- Products
+- Pricebooks
+- Pricebooks entries
+- Opportunity
+- Opportunity product
+- Quote
+- Quote line
+- Order
+- Order line
+- Work order
+- Work order line
+- Service appointment
+
+
 
 ### Phase 2. Triggers API
 APIs called when a record in salesforce is created or changed
