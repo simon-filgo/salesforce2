@@ -2,7 +2,8 @@
 Project site for salesforce2 project @ Filgo. 
 
 ## Key resources
-- Project plan (https://app.smartsheet.com/b/publish?EQBCT=6f98c0152aa34af9975130359a2ae7be)
+- [Salesforce instance] (https://filgosonic.my.salesforce.com/)
+- [Project plan] (https://app.smartsheet.com/b/publish?EQBCT=6f98c0152aa34af9975130359a2ae7be)
 
 
 ## Overview
