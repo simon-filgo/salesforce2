@@ -9,6 +9,9 @@
 - Provide an API to create, update and read majjor salesforce objects
 - Use standardized schema for data when possible based on [schema.org](https://schema.org/), doing the translation from salesforce to schema.org in the api.
 
+## Overview
+
+<img width="826" alt="Screen Shot 2022-03-29 at 1 56 35 PM" src="https://user-images.githubusercontent.com/102594797/160675083-8684016a-f342-45f7-b2dd-67796020a424.png">
 
 ## Approach
 
