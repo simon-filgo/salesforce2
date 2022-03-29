@@ -46,7 +46,6 @@ Objects:
 
 
 
-### Phase 2. Triggers API
-APIs called when a record in salesforce is created or changed
-(same list as the top)
+### Phase 2. Compound API
+API that can handle multiple records creation at once. For example, an order object that would create account, contact, order and order lines.
 
