@@ -1,6 +1,10 @@
 # salesforce2
 Project site for salesforce2 project @ Filgo. 
 
+## Key resources
+- Project plan (https://app.smartsheet.com/b/publish?EQBCT=6f98c0152aa34af9975130359a2ae7be)
+
+
 ## Overview
 Filgo deployed Salesforce in 2020 and SFS in 2022 to support the order to cash process and field service process. 
 The deployment was heavily customized and didn't use the standard salesforce objects, forcing the organization to start over. 
