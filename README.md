@@ -54,6 +54,8 @@ Configure the system with the basics.
 - Company specifics
 - Groups and security
 - SSO
+- Products
+- APIs
 
 ### Phase 2. Proof of concept lubricant
 Develop a proof of concept for the sales and distribution of lubricants
