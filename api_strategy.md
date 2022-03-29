@@ -7,6 +7,7 @@
 
 ## Strategy
 - Provide an API to create, update and read majjor salesforce objects
+- Use standardized schema for data when possible based on [schema.org](https://schema.org/), doing the translation from salesforce to schema.org in the api.
 
 
 ## Approach
