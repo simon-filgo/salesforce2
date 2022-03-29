@@ -20,7 +20,7 @@ Develop the following 4 APIs for each of the base objects:
 
 Naming convention:
 - system_entity_action_version
-- sf2_account_get_v1
+- example: sf2_account_get_v1
 
 Actions:
 - post: post schema.org object to salesforce object and return salesforce record id
