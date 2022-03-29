@@ -18,17 +18,17 @@
 ### Phase 1. Base APIs
 Develop the following 4 APIs for each of the base objects:
 
-Naming convention:
+#### Naming convention:
 - system_entity_action_version
 - example: sf2_account_get_v1
 
-Actions:
+#### Actions:
 - post: post schema.org object to salesforce object and return salesforce record id
 - get: retrieve salesforce object based on id or criteria and return schema.org object
 - get_callback: record callback url and push new é updated salesforce records to callback url in schema.org schema
 - get_bus: same as get_callback but sends to relevant BUS account instead of callback url
 
-Objects:
+#### Objects:
 - Accounts
 - Contacts
 - Products
