@@ -42,6 +42,9 @@ Pricing rules are stored in a table with the schema described below. Rules can b
 Most of the fields of a pricing rules are meant to be empty. 
 ### Schema
 - Pricing rules
+  - rule number
+  - date_effective
+  - date_expiration 
   - product_type
   - product_category
   - product_family
@@ -103,8 +106,9 @@ The algorithm applies pricing rules from the most specific to the least specific
 The following examples use the following rules as base
 
 |Rule number |product_type |product |client_type |client |delivery_region |delivery_site |quantity_min |quantity_max |markup_variable |markup_fixed |
-|:------      |:--  |:--       |:--            |:--              |:--            |:--          |:--            |-::              |:--           |:-- |
-|1            |propane     | | | | | | | |a |    }
+|:------     |:--          |:--     |:--         |:--    |:--             |:--           |:--          |-::          |:--             |:--           |
+|1           |propane      |        |            |       |                |              |             |             |a                |             |    
+
 
 
 
