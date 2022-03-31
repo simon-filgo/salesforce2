@@ -9,15 +9,9 @@ We use schema.org mainly as the primary schema for data
 |:------------|:-------------|:-----|-------|
 |[organization](https://schema.org/Organization)| account | ?? | ?? |
 |[person](https://schema.org/Person) | contact | ?? | ?? |
-|[product](https://schema.org/docs/search_results.html?q=product) | product | ?? | ?? |
+|[product](https://schema.org/Product) | product | ?? | ?? |
 |[offer](https://schema.org/Offer) | quote | ?? | ?? |
 |[order](https://schema.org/Order) | sales order/sales order line | ?? | ?? |
 |[invoice](https://schema.org/Invoice) | ??  | ?? | ?? |
 
 
-
-### Organization
-The representation of a business, company
-#### Equivalent
-- Salesforce: account
-- AWE
