@@ -127,10 +127,10 @@ The following examples use the following rules as base
 Sale of 50 unit of diesel (fuel), base cost of $1.00 per unit to a commercial client in laurentide
 
 - Applicable rules:
-  -  1 (product_type if fuel)
-  -  2 (product_type if fuel and client_type is commercial)
+  -  1 (product_type is fuel)
+  -  2 (product_type is fuel and client_type is commercial)
 - Retained rule (most specific)
-  -  2 (product_type if fuel and client_type is commercial)
+  -  2 (product_type is fuel and client_type is commercial)
 -  Final price:
   - Base cost 1.00 + 0.15 = 1.15 
 
@@ -138,11 +138,11 @@ Sale of 50 unit of diesel (fuel), base cost of $1.00 per unit to a commercial cl
 Sale of 50 unit of diesel (fuel) to a client Proxy delivery in lanaudiere
 
 - Applicable rules:
-  -  1 (product_type if fuel)
-  -  2 (product_type if fuel and client_type is commercial)
-  -  4 (product_type if fuel and client_type is commercial, client is Proxy)
+  -  1 (product_type is fuel)
+  -  2 (product_type is fuel and client_type is commercial)
+  -  4 (product_type is fuel and client_type is commercial, client is Proxy)
 - Retained rule (most specific)
-  -  4 (product_type if fuel and client_type is commercial, client is Proxy)
+  -  4 (product_type is fuel and client_type is commercial, client is Proxy)
 - Final price:
   - Base cost 1.00 + 0.15 = 1.15 
 
