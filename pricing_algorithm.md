@@ -80,13 +80,13 @@ Most of the fields of a pricing rules are meant to be empty.
 
 #### Fixed amount discount for a given type 
 - client_type: Distributor
-- discount_fixed: $0.10
+- discount_fixed: $0.15
 
 #### Volume discount for a given product if between 100 to 200
 - product: Propane
 - quantity_min: 100
 - quantity_max: 200
-- discount_variable: $0.10
+- discount_variable: 0.10
 
 ## Guidelines
 - Apply all available rules from most specific to least specific. 
@@ -153,10 +153,10 @@ Sale of 250 unit of diesel (fuel) to a client Proxy delivery in lanaudiere
 - Applicable rules:
   -  1 (product_type is fuel)
   -  2 (product_type is fuel and client_type is commercial)
-  -  4 (product_type is fuel and client_type is commercial, client is Proxy)
+  -  4 (product_type is fuel and client is Proxy)
   -  5 ((product_type is fuel and quantit is greater than quantity_min and quantity is less than quantity_max)
 - Retained rule (most specific)
-  -  4 (product_type is fuel and client_type is commercial, client is Proxy)
+  -  4 (product_type is fuel and client is Proxy)
   -  5 ((product_type is fuel and quantity is greater than quantity_min and quantity is less than quantity_max)
 - Final price:
   - Base cost 1.00 + 0.15 - 0.02 = 1.15 
