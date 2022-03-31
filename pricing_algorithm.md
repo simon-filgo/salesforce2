@@ -92,6 +92,7 @@ Most of the fields of a pricing rules are meant to be empty.
 - Apply all available rules from most specific to least specific. 
 - Don't apply two rules for the same dimension (specific product and product family for example)
 - Most specific rule wins
+- If error in process, return list price
 
 ## Algorithm
 The algorithm applies pricing rules from the most specific to the least specific for each dimensions
