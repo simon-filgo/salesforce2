@@ -105,17 +105,45 @@ The algorithm applies pricing rules from the most specific to the least specific
 ## Example
 The following examples use the following rules as base
 
-|Rule number |product_type |product |client_type |client |delivery_region |delivery_site |quantity_min |quantity_max |markup_variable |markup_fixed |
-|:------     |:--          |:--     |:--         |:--    |:--             |:--           |:--          |:---          |:--             |:--           |
-|1           |propane      |        |            |       |                |              |             |             |a                |             |    
+|Rule number |product_type |product |client_type |client |delivery_region |delivery_site |quantity_min |quantity_max |markup_variable  |markup_fixed |
+|:------     |:--          |:--     |:--         |:--    |:--             |:--           |:--          |:---         |:--              |:--          |
+|1           |fuel         |        |            |       |                |              |             |             |0.20             |             |    
+|2           |fuel         |        |commercial  |       |                |              |             |             |0.15             |             |    
+|3           |fuel         |        |commercial  |       |                |              |             |             |0.15             |             |    
+|4           |fuel         |        |commercial  |       |lanaudiere      |              |             |             |0.17             |             |    
+|5           |fuel         |        |            |Proxy  |                |              |             |             |0.10             |             |    
+
+|5           |fuel         |        |            |       |                |              |100          |200          |0.02             |             |    
+|6           |propane      |        |            |       |                |              |             |             |a                |             |    
+|7           |propane      |        |            |       |                |              |             |             |a                |             |    
+|8           |propane      |        |            |       |                |              |             |             |a                |             |    
 
 
 
 
 
-### Scenario 1. Product specific pricing for a specific client
 
-- Rules:
-  -  
+### Scenario 1. Pricing for product_type and client_type
+Sale of 50 unit of diesel (fuel), base cost of $1.00 per unit to a commercial client in laurentide
+
+- Applicable rules:
+  -  1 (product_type if fuel)
+  -  2 (product_type if fuel and client_type is commercial)
+- Retained rule (most specific)
+  -  2 (product_type if fuel and client_type is commercial)
+-  Final price:
+  - Base cost 1.00 + 0.15 = 1.15 
+
+### Scenario 2. Product specific pricing for a specific client
+Sale of 50 unit of diesel (fuel) to a client Proxy delivery in lanaudiere
+
+- Applicable rules:
+  -  1 (product_type if fuel)
+  -  2 (product_type if fuel and client_type is commercial)
+  -  4 (product_type if fuel and client_type is commercial, client is Proxy)
+- Retained rule (most specific)
+  -  4 (product_type if fuel and client_type is commercial, client is Proxy)
+- Final price:
+  - Base cost 1.00 + 0.15 = 1.15 
 
 
