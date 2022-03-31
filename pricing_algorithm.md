@@ -103,7 +103,7 @@ The algorithm applies pricing rules from the most specific to the least specific
 The following examples use the following rules as base
 
 |Rule number |product_type |product | client_type | client |  delivery_region | delivery_site | quantity_min | quantity_max | markup_variable | markup_fixed |
-|:------      |: --     |: --       |:            |:--              |:--            |:--          |:--            |-::              |:--           |:-- |
+|:------      |: --     |: --       |:--            |:--              |:--            |:--          |:--            |-::              |:--           |:-- |
 |1            |propane     | | | | | | | |a |    }
 
 
