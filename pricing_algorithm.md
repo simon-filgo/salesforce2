@@ -96,6 +96,8 @@ Most of the fields of a pricing rules are meant to be empty.
 ## Algorithm
 The algorithm applies pricing rules from the most specific to the least specific for each dimensions
 
+price = cost + cost * (sum of markup_fixed) + cost * (sum of markup_variable) + list price + list price * (sum of discount_fixed) + list price * (sum of discount_variable) 
+
 - Step 1. Find applicable rules
   -  Find all rules applicable, from the most specific to the least specific
   -  Keep only the most specific rule for each dimension
