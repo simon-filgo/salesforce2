@@ -5,6 +5,7 @@ Project site for salesforce2 project @ Filgo.
 - [Salesforce instance](https://filgosonic.my.salesforce.com/)
 - [Project plan](https://app.smartsheet.com/b/publish?EQBCT=6f98c0152aa34af9975130359a2ae7be)
 - [Postman API](https://go.postman.co/workspace/Filgo-Sonic~5e6ec737-1640-4f82-a0ca-ffcf61aad135/collection/5957859-76dfea71-e159-477b-b9c2-313f7107823e?action=share&creator=19922079)
+- [Data integration diagram](https://lucid.app/lucidchart/ad3f7eb7-9362-4392-926a-d6a6422f894c/edit?invitationId=inv_d6a260bc-32b6-41b9-81bc-b74ba055940b)
 
 
 ## Overview
