@@ -22,7 +22,7 @@ Work order types:
     -	Heating system maintenance
   -	Products:
   -	  Consumer heating system maintenance kit ($50, non-inventoried)
- 
+
 -	Commercial heating system maintenance
   -	4 hours
   - Required skills: 
