@@ -6,10 +6,10 @@ A few things I'd like to see:
 -	How to Start with a fixed price for a service, but add variable costs as needed (extra parts, more time, etc.).
 
 Create 4 generic service resources for now:
--	Tech1 Heating (tech1@filgo-sonic.ca, tempsfs1!!)
--	Tech2 Heating (tech2@filgo-sonic.ca, tempsgfs2!!)
--	Tech3 Fuel (tech3@filgo-sonic.ca, tempsfs3!!)
--	Tech4 Fuel (tech4@filgo-sonic.ca, tempsfs4!!)
+-	Tech1 Heating (tech1@filgo-sonic.ca)
+-	Tech2 Heating (tech2@filgo-sonic.ca)
+-	Tech3 Fuel (tech3@filgo-sonic.ca)
+-	Tech4 Fuel (tech4@filgo-sonic.ca)
 
 Skills should:
 -	Heating system maintenance (tech1, tech2)
