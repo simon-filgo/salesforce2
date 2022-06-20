@@ -2,10 +2,13 @@
 
 
 
-# Requirements:
-## Phase 1. 
+#Requirements:
+##Phase 1. 
 - Order to work order (bidirectional)
 - Order line with work order line (bidirectional)
 - Ability to not update price of order line (fixed price) bid 
 
-## Phase 2. Ability to show added products consumed to in voice (is this required or is the service report enough)?
+##Phase 2. Ability to show added products consumed to in voice (is this required or is the service report enough)?
+
+
+
